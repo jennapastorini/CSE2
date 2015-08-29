@@ -1,7 +1,7 @@
 //
 //Jenna Pastorini
 //Demo 0
-//Hello World Java Program
+//Hello World Jennaava Program
 //
 // first compile the program
 // javac HelloWorld.java
