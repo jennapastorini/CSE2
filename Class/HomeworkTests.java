@@ -1,11 +1,25 @@
 public class HomeworkTests {
-    public static void main(String[] args){
-  int counter = 0;
-  int capacity = 7;
-  while(counter < capacity) {
-       System.out.print(counter + " ");
-       counter++;
-       capacity--;
+        public static void main(String args[]) {
+        int x = 0;
+        int y = 0;
+        while (x < 3)
+        {
+            switch (x + y)
+            {
+                case 0:
+                    x++;
+                case 1:
+                case 2:
+                    y++;
+                    break;
+                case 3:
+                    x++;
+                    break;
+                default:
+                    y = 0;
+                    break;
+            }
+            System.out.print(y);
+        }
+        } 
     }
-}
-}
