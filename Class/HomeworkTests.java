@@ -1,8 +1,11 @@
 public class HomeworkTests{
-  public static int add(int x, int y) {
-    return (x + y); 
-  }
-  public static void main(String args[]) {
-    System.out.println(add(5,5.7)); 
-  }
+       public static void printThis(int a, int b) {
+        System.out.println("The values are: " + a + " and " + b + ", which are integers.");
+    }
+    public static void printThis(double a, double b) {
+        System.out.println("The values are: " + a + " and " + b + ", which are doubles.");
+    }
+    public static void main (String[] args) {
+        printThis(7, 2.2);
+    }
 }

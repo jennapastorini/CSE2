@@ -41,7 +41,7 @@ public class coinFlip { //declare public class
     public static void main (String [] args) {
          Scanner myScanner= new Scanner (System.in);
          System.out.println("Please enter a number of coin flips: ");
-         int s=myScanner.nextInt(); //declare n as number of clips
+         int s=myScanner.nextInt(); //declare s as number of clips
         flip(s);
     } //close main method
 } //close public class     
